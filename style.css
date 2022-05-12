@@ -1,0 +1,6 @@
+#footerpart2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
