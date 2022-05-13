@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/1.png">
     <link rel="stylesheet" href="registro.css">
     <title>Registro</title>
 </head>
@@ -15,42 +16,47 @@
         <div class="imagenropa">
             <img src="./assets/camisetas.jpg" alt="tiendas-login" id="tiendas-login">
         </div>
-        
-    <form action="" method="post">
-        <ul>
-            <li>
-                <label for ="name">Nombre </label>
-                <input type="text" id = "name" name="nombre" placeholder="Nombre" required>
-            </li>   
-            <li>
-                <label for ="surname">Apellido </label>
-                <input type="text" id = "surname" surname="apellido" placeholder="Apellido" required>
-            </li>
-            <li>
-                <label for ="document">Documento</label>
-                <input type="text" id = "documento" name="documento" placeholder="Documento de identidad" required> 
-            </li>
-            <li>
-                <label for ="mail">Correo electrónico</label>
-                <input type="email" id = "mail" name="user_mail" placeholder="Correo electrónico" required> 
-            </li>
-            <li>
-                <label for ="password">Password</label>
-                <input type="password" id = "password" name="password" placeholder="Ejm: 123456" required> 
-            </li>
-            <li>
-                <label for ="address">Dirección</label>
-                <input type="text" id = "direccion" name="direccion" placeholder="Dirección" required> 
-            </li>
-            <li>
-                <label for ="phone">Teléfono</label>
-                <input type="number" id = "telefono" name="telefono" placeholder="Ejm: 321546741" required> 
-            </li>
-            <li class="button">
-                <input type="submit" value="Registrarse" id="enviar-login">
-            </li>
-        </ul>
-    </form>
-    <script src="./regitro.js"></script>
+        <div class="container-form">
+
+    
+            <form action="" method="post" id="form">
+                <p class="container-form-registro">Registro</p>
+                <ul>
+                    <li>
+                        <label for ="name">Nombre </label>
+                            <input type="text" id = "name" name="nombre" placeholder="Nombre" required>
+                    </li>
+                    <li>
+                        <label for ="surname">Apellido </label>
+                            <input type="text" id = "surname" surname="apellido" placeholder="Apellido" required>
+                    </li>
+                    <li>
+                        <label for ="document">Documento</label>
+                            <input type="text" id = "documento" name="documento" placeholder="Documento de identidad" required>
+                    </li>
+                    <li>
+                        <label for ="mail">Correo electrónico</label>
+                            <input type="email" id = "mail" name="user_mail" placeholder="Correo electrónico" required>
+                    </li>
+                    <li>
+                        <label for ="password">Password</label>
+                            <input type="password" id = "password" name="password" placeholder="Ejm: 123456" required>
+                    </li>
+                    <li>
+                        <label for ="address">Dirección</label>
+                            <input type="text" id = "direccion" name="direccion" placeholder="Dirección" required>
+                    </li>
+                    <li>
+                        <label for ="phone">Teléfono</label>
+                            <input type="number" id = "telefono" name="telefono" placeholder="Ejm: 321546741" required>
+                    </li>
+                    <li class="button">
+                            <input type="submit" value="Registrarse" id="enviar-login" a href="./login.html">
+                    </li>
+                </ul>
+            </form>
+        </div>    
+    </div>        
+            <script src="./regitro.js"></script>
 </body>
 </html>
